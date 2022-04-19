@@ -1,0 +1,14 @@
+C++ Container Class that has PythonDictionary-like properties
+
+
+Container class to hold key, value pairs
+Keeps track of inersertion order while keeping time complexity low:
+Insertion O(1)
+Delete    O(1)
+Retreival O(1)
+
+
+Acheived using a List to hold key/value pairs while keeping track of order
+AND a hashtable to store a key/ListIterator to quickly find and execute within the list
+
+Supports iteration & foreach style iteration
